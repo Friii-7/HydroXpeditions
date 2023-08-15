@@ -191,7 +191,7 @@ section {
 
 .about .details {
    border-radius: .5rem;
-   background: url('../images/aboutnew.png') no-repeat rgba(0, 0, 0, .5);
+   /* background: url('../images/aboutnew.png') no-repeat rgba(0, 0, 0, .5); */
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -199,7 +199,7 @@ section {
    align-items: center;
    justify-content: center;
    padding: 2rem;
-   min-height: 60vh;
+   min-height: 70vh;
    border-radius: .5rem;
 }
 
@@ -302,7 +302,7 @@ div#carousel~span:hover {
 .about .details .box p {
    padding: 1rem 0;
    font-size: 1.5rem;
-   color: var(--light-white);
+   color: var(--white);
    line-height: 2;
 }
 
@@ -355,7 +355,7 @@ div#carousel~span:hover {
 
 
 .reviews {
-   background: url('../images/reviews-bg.jpg') no-repeat rgba(0, 0, 0, .5);
+   background: url('../images/aboutnew.png') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -782,6 +782,11 @@ div#carousel~span:hover {
 
    .heading {
       font-size: 2.5rem;
+   }
+
+   .home-social {
+      width: auto;
+      left: 2px;
    }
 
 }
