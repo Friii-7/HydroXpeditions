@@ -182,7 +182,7 @@ section {
 }
 
 .about {
-   background: url('../images/aboutcar2.jpg') no-repeat rgba(0, 0, 0, .5);
+   background: url('../images/hydro\ \(4\).jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -191,7 +191,7 @@ section {
 
 .about .details {
    border-radius: .5rem;
-   /* background: url('../images/aboutnew.png') no-repeat rgba(0, 0, 0, .5); */
+   /* background: url('../images/hydro\ \(1\).jpg') no-repeat rgba(0, 0, 0, .5); */
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -412,7 +412,7 @@ div#carousel~span:hover {
 }
 
 .tours {
-   background: url('../images/tour-bg.jpg') no-repeat rgba(0, 0, 0, .5);
+   background: url('../images/hydro\ \(3\).jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -536,7 +536,7 @@ div#carousel~span:hover {
 }
 
 .contact {
-   background: url('../images/contact-bg.jpg') no-repeat rgba(0, 0, 0, .5);
+   background: url('../images/bak\ abuot.jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
