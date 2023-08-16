@@ -792,17 +792,13 @@ div#carousel~span:hover {
    }
 
    .heading {
-      font-size: 2.5rem;
+      font-size: 3rem;
+      margin-bottom: 4rem;
    }
 
    .home-social {
       width: auto;
       left: 2px;
-   }
-
-   .heading {
-
-      font-size: 3rem;
    }
 
 }
