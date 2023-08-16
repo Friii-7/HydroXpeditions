@@ -60,14 +60,18 @@
                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                data-aos="flip-left"></iframe> -->
 
-            <form action="" method="post" data-aos="flip-right">
-               <h3>get in touch</h3>
-               <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
-               <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
-               <input type="number" name="number" required maxlength="10" min="0" max="9999999999"
+            <form action="" id="hydroContact" target="_blank" method="POST">
+               <h3 class="alert">get in touch</h3>
+               <input type="text" name="name" id="name" required maxlength="50" placeholder="enter your name"
+                  class="box">
+               <input type="email" name="email" id="email" required maxlength="50" placeholder="enter your email"
+                  class="box">
+               <input type="number" name="number" id="number" required maxlength="10" min="0" max="9999999999"
                   placeholder="enter your number" class="box">
-               <textarea name="message" class="box" required maxlength="1000" cols="30" rows="10"></textarea>
-               <input type="submit" value="send message" name="send" class="btn">
+               <textarea name="message" id="message" class="box" required maxlength="1000" cols="30"
+                  rows="10"></textarea>
+               <button class="btn" type="submit">Send Message</button>
+               <!-- <input type="submit" value="send message" name="send" class="btn"> -->
             </form>
 
          </div>
@@ -113,7 +117,13 @@
    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
    <!-- custom js file link  -->
-   <script src="js/script.js"></script>
+   <script src="./js/script.js" type="module"></script>
+
+
+   <!-- firebase -->
+
+   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
 
 </body>
 
