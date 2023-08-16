@@ -49,16 +49,18 @@
 
       <section class="flex" data-aos="zoom-in" data-aos-delay="600">
 
-         <form action="" method="post">
+         <form action="" id="home-data" method="post">
             <h3>search your tour</h3>
-            <p>where to</p>
-            <input type="text" name="location" required maxlength="50" placeholder="enter tour location" class="box">
-            <p>when</p>
-            <input type="date" name="date" class="box" required>
-            <p>how many</p>
-            <input type="number" name="guests" min="1" max="10" maxlength="2" placeholder="number of guests" required
+            <p class="alert">where to</p>
+            <input type="text" name="location" id="location" required maxlength="50" placeholder="enter tour location"
                class="box">
-            <input type="submit" value="search tour" name="search" class="btn">
+            <p>when</p>
+            <input type="date" name="date" id="date" class="box" required>
+            <p>how many</p>
+            <input type="number" name="guests" id="guests" min="1" max="10" maxlength="2" placeholder="number of guests"
+               required class="box">
+            <button class="btn" type="submit" name="search">Search Tour</button>
+            <!-- <input type="submit" value="search tour" name="search" class="btn"> -->
          </form>
 
       </section>
@@ -86,8 +88,13 @@
    <!-- custom js file link  -->
    <script src="./js/script.js"></script>
 
+   <script src="./js/dataHome.js" type="module"></script>
 
 
+   <!-- firebase -->
+
+   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
 
 
 </body>
