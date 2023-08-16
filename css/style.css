@@ -800,4 +800,9 @@ div#carousel~span:hover {
       left: 2px;
    }
 
+   .heading {
+
+      font-size: 3rem;
+   }
+
 }
