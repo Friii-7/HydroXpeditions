@@ -166,14 +166,22 @@ section {
    color: var(--light-white);
 }
 
+.home .flex form label {
+   padding-top: 1rem;
+   font-size: 1.7rem;
+   color: var(--light-white);
+}
+
+
+
 .home .flex form .box {
    width: 100%;
    border-radius: .5rem;
    padding: 1.4rem;
    font-size: 1.8rem;
-   color: var(--white);
+   color: var(--black);
    text-transform: none;
-   background: var(--light-black);
+   background: var(--light-bg);
    margin: 1rem 0;
 }
 
