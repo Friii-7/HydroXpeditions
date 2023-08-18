@@ -179,9 +179,9 @@ section {
    border-radius: .5rem;
    padding: 1.4rem;
    font-size: 1.8rem;
-   color: var(--black);
+   color: var(--white);
    text-transform: none;
-   background: var(--light-bg);
+   background: var(--light-black);
    margin: 1rem 0;
 }
 
