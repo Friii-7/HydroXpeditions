@@ -835,8 +835,12 @@ div#carousel~span:hover {
    }
 
    .nav-container__logo img {
-      width: 90px;
-      height: 90px;
+      width: 200px;
+      height: 88px;
+   }
+
+   .nav-container__logo {
+      right: 36px;
    }
 
 }
@@ -867,4 +871,6 @@ div#carousel~span:hover {
       height: 94px;
       top: -51px;
    }
+
+
 }
