@@ -23,12 +23,12 @@ function submitForm(e) {
   const number = getElementVal("number");
   const massage = getElementVal("message");
   const location = getElementVal("location");
-  const date = getElementVal("date");
+  const date1 = getElementVal("date");
   const guests = getElementVal("guests");
 
-  console.log(name, email, number, massage, location, date, guests);
+  console.log(name, email, number, massage, location, date1, guests);
 
-  saveMessages(name, email, number, massage, location, date, guests);
+  saveMessages(name, email, number, massage, location, date1, guests);
 
   const alertBox = document.querySelector(".alert");
   alertBox.style.display = "block";
@@ -40,7 +40,7 @@ function submitForm(e) {
   document.getElementById("hydroContact").reset();
 }
 
-function saveMessages(name, email, number, massage, location, data, guests) {
+function saveMessages(name, email, number, massage, location, date1, guests) {
   const newContactForm = contactFormDB.push();
   newContactForm.set({
     name,
@@ -48,7 +48,7 @@ function saveMessages(name, email, number, massage, location, data, guests) {
     number,
     massage,
     location,
-    date,
+    date1,
     guests
   });
 }
