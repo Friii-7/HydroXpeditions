@@ -30,8 +30,12 @@
    <header class="header" data-aos="fade-down">
 
       <section class="flex">
+         <!-- 
+         <a href="home.html" class="logo">HydroXpeditions.</a> -->
 
-         <a href="home.html" class="logo">HydroXpeditions.</a>
+         <div class="nav-container__logo">
+            <img src="./images/logo-removebg-preview.png" class="logo" alt="" loading="lazy">
+         </div>
 
          <nav class="navbar">
             <a href="home.html">home</a>
@@ -60,12 +64,16 @@
          <div class="row">
             <form action="" id="hydroContact" target="_blank" method="POST">
                <h3 class="alert">get in touch</h3>
+
                <input type="text" name="name" id="name" required maxlength="50" placeholder="enter your name"
                   class="box">
+
                <input type="email" name="email" id="email" required maxlength="50" placeholder="enter your email"
                   class="box">
+
                <input type="number" name="number" id="number" required maxlength="10" min="0" max="9999999999"
                   placeholder="enter your number" class="box">
+
                <select id="location" name="location" class="box" placeholder="enter tour location">
                   <option value="" disabled selected>Select an option</option>
                   <option value="san-carlos">San Carlos</option>
@@ -73,12 +81,19 @@
                   <option value="concepcion">Concepción</option>
                   <option value="puerto-garza">Puerto Garza</option>
                </select>
+
                <input type="number" name="guests" id="guests" min="1" max="10" maxlength="2"
                   placeholder="number of guests" required class="box">
-               <input type="date" name="date" id="date" class="box">
+
+               <!-- <input type="date" name="date" id="date" class="box"> -->
+
+               <input type="date" id="date" name="date" class="box">
+
                <textarea name="message" id="message" class="box" required maxlength="1000" cols="30"
                   rows="10"></textarea>
+
                <button class="btn" type="submit">Send Message</button>
+
             </form>
          </div>
 

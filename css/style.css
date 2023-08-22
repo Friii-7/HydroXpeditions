@@ -130,6 +130,17 @@ section {
    display: none;
 }
 
+.nav-container__logo {
+   position: relative;
+   bottom: 14px;
+   right: 320px;
+}
+
+.nav-container__logo img {
+   width: 400px;
+   height: 103px;
+}
+
 .home {
    background: url('../images/home-back.jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
@@ -195,13 +206,13 @@ section {
    margin-bottom: 1.5rem;
 }
 
-.heading1 {
+/* .heading1 {
 
    position: absolute;
    bottom: 535px;
    width: 330px;
    height: 143px;
-}
+} */
 
 /* Resto de tu CSS existente */
 
@@ -823,11 +834,10 @@ div#carousel~span:hover {
       margin-top: 1rem;
    }
 
-   .heading1 {
-      top: 4px;
-      font-size: 2rem;
+   .nav-container__logo img {
+      width: 90px;
+      height: 90px;
    }
-
 
 }
 
