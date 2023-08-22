@@ -145,49 +145,67 @@ section {
    justify-content: center;
 }
 
-.home .flex form {
-   background-color: var(--light-bg);
-   border-radius: .5rem;
-   padding: 2rem;
-   width: 50rem;
-   backdrop-filter: blur(.4rem);
-}
-
-.home .flex form h3 {
-   font-size: 2.5rem;
-   color: var(--white);
-   padding-bottom: 1rem;
+.btn2 {
+   display: block;
+   position: relative;
+   left: 43%;
+   bottom: 39px;
+   border-radius: 0.5rem;
+   padding: 1.2rem 3rem;
+   background: var(--main-color);
+   color: var(--black);
+   cursor: pointer;
    text-align: center;
+   width: 156px;
+   font-size: 1rem;
+   margin-top: 5rem;
+   transition: .2s linear;
 }
 
-.home .flex form p {
-   padding-top: 1rem;
-   font-size: 1.7rem;
-   color: var(--light-white);
+/* Tu CSS existente */
+
+.tour-info {
+   text-align: center;
+   color: #fff;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
 }
 
-.home .flex form label {
-   padding-top: 1rem;
-   font-size: 1.7rem;
-   color: var(--light-white);
+
+.tour-option {
+   margin: 2rem 0;
+   background-color: var(--light-bg);
+   border-radius: 10px;
+   padding: 1.5rem;
+   transition: background-color 0.3s ease;
 }
 
-
-
-.home .flex form .box {
-   width: 100%;
-   border-radius: .5rem;
-   padding: 1.4rem;
-   font-size: 1.8rem;
-   color: var(--white);
-   text-transform: none;
-   background: var(--light-black);
-   margin: 1rem 0;
+.tour-option:hover {
+   background-color: var(--light-white);
 }
 
-.home .flex form .box::placeholder {
-   color: var(--light-white);
+.tour-option h3 {
+   font-size: 2rem;
+   margin-bottom: 1.5rem;
 }
+
+.tour-option p {
+   font-size: 2rem;
+   margin-bottom: 1.5rem;
+}
+
+.heading1 {
+
+   position: absolute;
+   bottom: 535px;
+   width: 330px;
+   height: 143px;
+}
+
+/* Resto de tu CSS existente */
+
+
 
 .about {
    background: url('../images/hydro\ \(4\).jpg') no-repeat rgba(0, 0, 0, .5);
@@ -211,10 +229,10 @@ section {
    border-radius: .5rem;
 }
 
-.container img {
+/* .container img {
    width: 100%;
    height: 100px;
-}
+} */
 
 #carousel {
    perspective: 1200px;
@@ -429,7 +447,7 @@ div#carousel~span:hover {
 
 .tours .grid {
    display: grid;
-   grid-template-columns: repeat(auto-fit, 35rem);
+   grid-template-columns: repeat(auto-fit, 38rem);
    align-items: flex-start;
    justify-content: center;
    gap: 1.5rem;
@@ -791,6 +809,26 @@ div#carousel~span:hover {
       font-size: 3rem;
    }
 
+
+
+   .tour-info {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-top: 1rem;
+   }
+
+
+   .btn2 {
+      display: block;
+      margin-top: 1rem;
+   }
+
+   .heading1 {
+      top: 4px;
+      font-size: 2rem;
+   }
+
+
 }
 
 @media (max-width:450px) {
@@ -808,5 +846,15 @@ div#carousel~span:hover {
       left: 2px;
    }
 
+   .btn2 {
+      left: 26%;
+      bottom: 0;
+      font-size: 15px;
+   }
 
+   .heading1 {
+      width: 233px;
+      height: 94px;
+      top: -51px;
+   }
 }

@@ -20,3 +20,6 @@ AOS.init({
   duration: 400,
   delay: 200,
 });
+
+
+AOS.init();
