@@ -159,8 +159,8 @@ section {
 .btn2 {
    display: block;
    position: relative;
-   left: 43%;
-   bottom: 39px;
+   left: 34%;
+   bottom: 4px;
    border-radius: 0.5rem;
    padding: 1.2rem 3rem;
    background: var(--main-color);
