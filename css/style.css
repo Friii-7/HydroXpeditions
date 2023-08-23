@@ -763,6 +763,67 @@ div#carousel~span:hover {
    color: var(--main-color);
 }
 
+.contact .credit span {
+   color: var(--min-color);
+}
+
+.alert {
+   width: 100%;
+   background: rgb(0, 255, 106);
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 900;
+   display: none;
+}
+
+
+.home-social {
+   position: relative;
+   bottom: 0;
+   width: 170px;
+   display: flex;
+   left: 64px;
+   justify-content: space-between;
+}
+
+.home-social a {
+   position: relative;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   background: transparent;
+   border: .2rem solid var(--main-color);
+   border-radius: 50%;
+   font-size: 20px;
+   color: var(--main-color);
+   z-index: 1;
+   overflow: hidden;
+   transition: .5s;
+}
+
+.home-social a:hover {
+   color: var(--light-white);
+}
+
+.home-social a::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   background: var(--light-bg);
+   z-index: -1;
+   transition: .5s;
+}
+
+.home-social a:hover::before {
+   width: 100%;
+}
 
 
 /*Responsive Web Design ------------------------------------------------------------------------- Media Queries*/
