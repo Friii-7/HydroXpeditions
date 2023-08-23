@@ -206,18 +206,8 @@ section {
    margin-bottom: 1.5rem;
 }
 
-/* .heading1 {
 
-   position: absolute;
-   bottom: 535px;
-   width: 330px;
-   height: 143px;
-} */
-
-/* Resto de tu CSS existente */
-
-
-
+/* style ----------------------------------------------------------------about */
 .about {
    background: url('../images/hydro\ \(4\).jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
@@ -448,8 +438,12 @@ div#carousel~span:hover {
    background-color: var(--light-black);
 }
 
+
+
+
+/* style ------------------------------------------------------------------------- expedition */
 .tours {
-   background: url('../images/hydro\ \(3\).jpg') no-repeat rgba(0, 0, 0, .5);
+   background: url('../images/expedition.jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -519,8 +513,11 @@ div#carousel~span:hover {
    background-color: var(--black);
 }
 
+
+/* style----------------------------------------------------------------------gallery */
+
 .destinations {
-   background: url('../images/hydro\ \(5\).jpg') no-repeat rgba(0, 0, 0, .5);
+   background: url('../images/gallery.jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -572,8 +569,11 @@ div#carousel~span:hover {
    opacity: 1;
 }
 
+
+/* style-------------------------------------------------------- contact */
+
 .contact {
-   background: url('../images/bak\ abuot.jpg') no-repeat rgba(0, 0, 0, .5);
+   background: url('../images/contac.jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -750,18 +750,9 @@ div#carousel~span:hover {
 
 
 
+/*Responsive Web Design ------------------------------------------------------------------------- Media Queries*/
 
 
-
-
-
-
-
-
-
-
-
-/* media queries  */
 
 @media (max-width:991px) {
 
@@ -864,12 +855,6 @@ div#carousel~span:hover {
       left: 26%;
       bottom: 0;
       font-size: 15px;
-   }
-
-   .heading1 {
-      width: 233px;
-      height: 94px;
-      top: -51px;
    }
 
 
