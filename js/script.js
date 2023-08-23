@@ -23,3 +23,27 @@ AOS.init({
 
 
 AOS.init();
+
+
+
+const popupButtons = document.querySelectorAll('.btn2');
+const popupCloseButtons = document.querySelectorAll('.popup-close-button');
+const popups = document.querySelectorAll('.popup');
+
+popupButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const target = button.getAttribute('data-popup-target');
+        const popup = document.getElementById(target);
+        popup.style.display = 'flex';
+    });
+});
+
+popupCloseButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const popup = button.closest('.popup');
+        popup.style.display = 'none';
+    });
+});
+
+
+
