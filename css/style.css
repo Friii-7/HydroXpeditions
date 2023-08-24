@@ -588,9 +588,8 @@ div#carousel~span:hover {
 
 .heading1 {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 3rem;
+   font-size: 2rem;
    color: var(--white);
-   text-transform: uppercase;
    text-align: center;
 }
 
@@ -907,7 +906,7 @@ div#carousel~span:hover {
    }
 
    .nav-container__logo {
-      right: -68px;
+      right: -76px;
       top: -21px;
    }
 
