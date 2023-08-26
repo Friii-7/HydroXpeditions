@@ -9,6 +9,7 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
+
 document.querySelectorAll('input[type="number"]').forEach((inputNumber) => {
   inputNumber.oninput = () => {
     if (inputNumber.value.length > inputNumber.maxLength)
@@ -28,6 +29,7 @@ AOS.init();
 
 const popupButtons = document.querySelectorAll('.btn2');
 const popupCloseButtons = document.querySelectorAll('.popup-close-button');
+const popupCloseButtons1 = document.querySelectorAll('.popup-close-button1');
 const popups = document.querySelectorAll('.popup');
 
 popupButtons.forEach(button => {
@@ -39,6 +41,12 @@ popupButtons.forEach(button => {
 });
 
 popupCloseButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const popup = button.closest('.popup');
+        popup.style.display = 'none';
+    });
+});
+popupCloseButtons1.forEach(button => {
     button.addEventListener('click', () => {
         const popup = button.closest('.popup');
         popup.style.display = 'none';
