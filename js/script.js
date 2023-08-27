@@ -10,6 +10,7 @@ window.onscroll = () => {
 };
 
 
+
 document.querySelectorAll('input[type="number"]').forEach((inputNumber) => {
   inputNumber.oninput = () => {
     if (inputNumber.value.length > inputNumber.maxLength)
