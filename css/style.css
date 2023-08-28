@@ -285,6 +285,11 @@ section {
 
 }
 
+.popup-image {
+   width: 404px;
+   height: 301px;
+}
+
 
 
 
@@ -1017,6 +1022,11 @@ div#carousel~span:hover {
       left: 26%;
       bottom: 0;
       font-size: 15px;
+   }
+
+   .popup-image {
+      width: 250px;
+      height: 200px;
    }
 
 
