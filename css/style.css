@@ -1009,6 +1009,12 @@ div#carousel~span:hover {
       right: 10px;
    }
 
+   .heading2 {
+      font-size: 3rem;
+      position: static;
+      top: auto;
+   }
+
 
 }
 
