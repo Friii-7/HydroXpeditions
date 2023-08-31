@@ -184,9 +184,42 @@ section {
    width: auto;
 }
 
+.home .details {
+   border-radius: .5rem;
+   background: url('../images/homen.jpg') no-repeat rgba(0, 0, 0, .5);
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+   min-height: 77vh;
+   border-radius: .5rem;
+}
 
+.heading1 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 3rem;
+   color: var(--white);
+   text-align: center;
+   padding-top: 50px;
+   animation: fadeInUp 1.5s ease-out;
+}
 
-.heading2 {
+@keyframes fadeInUp {
+   0% {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+/* .heading2 {
    font-family: sans-serif;
    font-size: 3rem;
    color: var(--white);
@@ -194,6 +227,65 @@ section {
    position: relative;
    top: 40px;
 
+} */
+
+
+
+
+.head {
+   display: flex;
+   align-items: center;
+   min-height: 100vh;
+   height: 100%;
+   width: 100%;
+   padding: 0 60px;
+   gap: 30px;
+   justify-content: space-between;
+   position: relative;
+   min-height: 100vh;
+   width: 100%;
+
+
+}
+
+.row h2,
+.row p {
+   color: var(--white);
+
+}
+
+.column {
+   width: 50%;
+
+   color: var(--white);
+}
+
+.buttons {
+   display: flex;
+   margin-top: 25px;
+   gap: 10px;
+}
+
+.btn3 {
+   padding: 14px 26px;
+   background: var(--white);
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+   transition: all 0.3s ease;
+
+}
+
+.btn3:last-child {
+   border: 2px solid var(--white);
+   background: transparent;
+   color: var(--min-color);
+
+}
+
+.btn3:last-child:hover {
+   background-color: var(--main-color);
+   color: var(--min-color);
 }
 
 
@@ -331,7 +423,51 @@ section {
    height: 301px;
 }
 
+.home2-social {
+   position: relative;
+   bottom: 70px;
+   width: 170px;
+   display: flex;
+   left: 45%;
+   justify-content: space-between;
+}
 
+.home2-social a {
+   position: relative;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   background: transparent;
+   border: .2rem solid var(--main-color);
+   border-radius: 50%;
+   font-size: 20px;
+   color: var(--main-color);
+   z-index: 1;
+   overflow: hidden;
+   transition: .5s;
+}
+
+.home2-social a:hover {
+   color: var(--light-white);
+}
+
+.home2-social a::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   background: var(--light-bg);
+   z-index: -1;
+   transition: .5s;
+}
+
+.home2-social a:hover::before {
+   width: 100%;
+}
 
 
 
@@ -655,13 +791,7 @@ div#carousel~span:hover {
    background-color: var(--black);
 }
 
-.heading1 {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 3rem;
-   color: var(--white);
-   text-align: center;
 
-}
 
 
 /* style----------------------------------------------------------------------gallery */
@@ -848,16 +978,16 @@ div#carousel~span:hover {
 }
 
 
-.home-social {
+.home1-social {
    position: relative;
    bottom: 0;
    width: 170px;
    display: flex;
-   left: 64px;
+   left: 16%;
    justify-content: space-between;
 }
 
-.home-social a {
+.home1-social a {
    position: relative;
    display: inline-flex;
    justify-content: center;
@@ -874,11 +1004,11 @@ div#carousel~span:hover {
    transition: .5s;
 }
 
-.home-social a:hover {
+.home1-social a:hover {
    color: var(--light-white);
 }
 
-.home-social a::before {
+.home1-social a::before {
    content: '';
    position: absolute;
    top: 0;
@@ -890,9 +1020,11 @@ div#carousel~span:hover {
    transition: .5s;
 }
 
-.home-social a:hover::before {
+.home1-social a:hover::before {
    width: 100%;
 }
+
+
 
 
 /*Responsive Web Design ------------------------------------------------------------------------- Media Queries*/
@@ -1017,6 +1149,10 @@ div#carousel~span:hover {
       top: auto;
    }
 
+   .home .details {
+      max-width: 100%;
+   }
+
 
 }
 
@@ -1036,10 +1172,16 @@ div#carousel~span:hover {
       font-size: 2.5rem;
    }
 
-   .home-social {
-      width: auto;
-      left: 2px;
+   .home2-social {
+      left: 102px;
+      max-width: 252px;
+      bottom: 13%;
    }
+
+   /* .home1-social {
+      width: auto;
+      left: 10%;
+   } */
 
    .btn2 {
       left: 26%;
