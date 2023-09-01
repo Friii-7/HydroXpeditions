@@ -184,40 +184,60 @@ section {
    width: auto;
 }
 
-.home .details {
+.details {
    border-radius: .5rem;
-   background: url('../images/homen.jpg') no-repeat rgba(0, 0, 0, .5);
+   /* background: url('../images/homen.jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
-   background-size: cover;
+   background-size: cover; */
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 2rem;
-   min-height: 77vh;
+   /* padding: 2rem; */
+   /* min-height: 77vh; */
    border-radius: .5rem;
 }
 
+.details:hover {
+   background-color: var(--light-white);
+}
+
 .heading1 {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 3rem;
+   font-family: revert;
+   font-size: 4rem;
    color: var(--white);
    text-align: center;
    padding-top: 50px;
-   animation: fadeInUp 1.5s ease-out;
+   /* animation: fadeInUp 1.5s ease-out; */
+   -webkit-animation: scale-up-center 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   animation: scale-up-center 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-@keyframes fadeInUp {
+@-webkit-keyframes scale-up-center {
    0% {
-      opacity: 0;
-      transform: translateY(20px);
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
    }
 
    100% {
-      opacity: 1;
-      transform: translateY(0);
+      -webkit-transform: scale(1);
+      transform: scale(1);
    }
 }
+
+@keyframes scale-up-center {
+   0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+   }
+
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+   }
+}
+
+
 
 /* .heading2 {
    font-family: sans-serif;
@@ -468,6 +488,9 @@ section {
 .home2-social a:hover::before {
    width: 100%;
 }
+
+
+
 
 
 
@@ -1093,7 +1116,7 @@ div#carousel~span:hover {
    .tour-info {
       grid-template-columns: 1fr;
       gap: 1rem;
-      margin-top: 1rem;
+      margin-top: 0;
    }
 
 
