@@ -17,7 +17,7 @@
    outline: none;
    border: none;
    text-decoration: none;
-   text-transform: capitalize;
+   text-transform: inherit;
    scrollbar-color: var(--main-color) var(--black);
    scrollbar-width: thin;
 }
@@ -67,7 +67,6 @@ section {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 7rem;
    color: var(--white);
-   text-transform: uppercase;
    text-align: center;
    margin-bottom: 4rem;
 }
@@ -115,6 +114,7 @@ section {
 .header .flex .navbar a {
    margin-left: 2rem;
    font-size: 1.8rem;
+   text-transform: capitalize;
    color: var(--light-white);
    transition: .2s linear;
 }
@@ -202,13 +202,14 @@ section {
    background-color: var(--light-white);
 }
 
+
+
 .heading1 {
    font-family: revert;
    font-size: 4rem;
    color: var(--white);
    text-align: center;
    padding-top: 50px;
-   /* animation: fadeInUp 1.5s ease-out; */
    -webkit-animation: scale-up-center 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
    animation: scale-up-center 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -327,6 +328,23 @@ section {
    transition: .2s linear;
 }
 
+.btn7 {
+   display: block;
+   position: relative;
+   left: 40%;
+   bottom: 37px;
+   border-radius: 0.5rem;
+   padding: 1.2rem 3rem;
+   background: var(--main-color);
+   color: var(--black);
+   cursor: pointer;
+   text-align: center;
+   width: 161px;
+   font-size: 1rem;
+   margin-top: 3rem;
+   transition: .2s linear;
+}
+
 /* Tu CSS existente */
 
 .tour-info {
@@ -358,6 +376,15 @@ section {
 .tour-option p {
    font-size: 2rem;
    margin-bottom: 1.5rem;
+}
+
+.heading3 {
+   font-family: revert;
+   font-size: 3rem;
+   color: var(--white);
+   text-align: center;
+   padding-top: 50px;
+
 }
 
 
@@ -526,7 +553,7 @@ section {
    height: 100px;
 } */
 
-#carousel {
+/* #carousel {
    perspective: 1200px;
    background: var(--light-black);
    padding-top: 10%;
@@ -600,7 +627,7 @@ div#carousel~span {
 div#carousel~span:hover {
    color: #888;
    cursor: pointer;
-}
+} */
 
 .about .details .box {
    width: 95rem;
@@ -1120,10 +1147,10 @@ div#carousel~span:hover {
    }
 
 
-   .btn2 {
+   /* .btn2 {
       display: block;
       margin-top: 1rem;
-   }
+   } */
 
    .nav-container__logo img {
       width: 200px;
@@ -1207,6 +1234,12 @@ div#carousel~span:hover {
    } */
 
    .btn2 {
+      left: 26%;
+      bottom: 0;
+      font-size: 15px;
+   }
+
+   .btn7 {
       left: 26%;
       bottom: 0;
       font-size: 15px;
