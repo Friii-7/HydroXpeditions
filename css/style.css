@@ -151,7 +151,7 @@ section {
 }
 
 .home .flex {
-   min-height: calc(100vh - 10rem);
+   min-height: calc(76vh - 10rem);
    display: flex;
    align-items: center;
    justify-content: center;
