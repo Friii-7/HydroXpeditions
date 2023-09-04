@@ -189,7 +189,7 @@ section {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 2rem;
+   /* padding: 2rem; */
    /* min-height: 77vh;
    border-radius: .5rem; */
 }
@@ -537,12 +537,12 @@ section {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 2rem;
-   min-height: 77vh;
+   /* padding: 2rem;
+   min-height: 77vh; */
    border-radius: .5rem;
 }
 
-.details :hover {
+.details:hover {
    background-color: var(--light-white);
 }
 
@@ -580,7 +580,7 @@ div#carousel~span:hover {
 }
 
 .about .details .box {
-   width: 95rem;
+   /* width: 95rem; */
    background-color: var(--light-bg);
    padding: 3rem 2rem;
    text-align: center;
