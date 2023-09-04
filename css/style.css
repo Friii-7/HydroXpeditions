@@ -157,7 +157,7 @@ section {
    justify-content: center;
 }
 
-.home .details .box {
+.home .details1 .box {
    width: 95rem;
    background-color: var(--light-bg);
    padding: 3rem 2rem;
@@ -166,41 +166,38 @@ section {
    border-radius: .5rem;
 }
 
-.home .details .box h3 {
+.home .details1 .box h3 {
    padding-bottom: 1rem;
    font-size: 2.5rem;
    color: var(--white);
 }
 
-.home .details .box p {
+.home .details1 .box p {
    padding: 1rem 0;
    font-size: 2rem;
    color: var(--white);
    line-height: 2;
 }
 
-.home .details .box .btn {
+.home .details1 .box .btn {
    display: inline-block;
    width: auto;
 }
 
-.details {
+.details1 {
    border-radius: .5rem;
-   /* background: url('../images/homen.jpg') no-repeat rgba(0, 0, 0, .5);
-   background-position: center;
-   background-attachment: fixed;
-   background-size: cover; */
    display: flex;
    align-items: center;
    justify-content: center;
-   /* padding: 2rem; */
-   /* min-height: 77vh; */
-   border-radius: .5rem;
+   padding: 2rem;
+   /* min-height: 77vh;
+   border-radius: .5rem; */
 }
 
-.details:hover {
+.details1:hover {
    background-color: var(--light-white);
 }
+
 
 
 
@@ -527,7 +524,8 @@ section {
 
 /* style ----------------------------------------------------------------about */
 .about {
-   background: url('../images/hydro\ \(4\).jpg') no-repeat rgba(0, 0, 0, .5);
+   /* background: url('../images/hydro\ \(4\).jpg') no-repeat rgba(0, 0, 0, .5); */
+   background: url('../images/alexAbout.jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -536,10 +534,6 @@ section {
 
 .about .details {
    border-radius: .5rem;
-   background: url('../images/alexAbout.jpg') no-repeat rgba(0, 0, 0, .5);
-   background-position: center;
-   background-attachment: fixed;
-   background-size: cover;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -548,10 +542,12 @@ section {
    border-radius: .5rem;
 }
 
-.container img {
-   width: 100%;
-   height: 100px;
+.details :hover {
+   background-color: var(--light-white);
 }
+
+
+
 
 #carousel {
    perspective: 1200px;
@@ -562,54 +558,8 @@ section {
    overflow: hidden;
 }
 
-figure#spinner {
-   transform-style: preserve-3d;
-   height: 300px;
-   transform-origin: 50% 50% -500px;
-   transition: 1s;
-}
 
-figure#spinner img {
-   width: 50%;
-   max-width: 414px;
-   height: 218px;
-   position: absolute;
-   left: 30%;
-   transform-origin: 50% 50% -500px;
-   outline: 1px solid transparent;
-}
 
-figure#spinner img:nth-child(1) {
-   transform: rotateY(0deg);
-}
-
-figure#spinner img:nth-child(2) {
-   transform: rotateY(-45deg);
-}
-
-figure#spinner img:nth-child(3) {
-   transform: rotateY(-90deg);
-}
-
-figure#spinner img:nth-child(4) {
-   transform: rotateY(-135deg);
-}
-
-figure#spinner img:nth-child(5) {
-   transform: rotateY(-180deg);
-}
-
-figure#spinner img:nth-child(6) {
-   transform: rotateY(-225deg);
-}
-
-figure#spinner img:nth-child(7) {
-   transform: rotateY(-270deg);
-}
-
-figure#spinner img:nth-child(8) {
-   transform: rotateY(-315deg);
-}
 
 div#carousel~span {
    color: #fff;
@@ -1223,7 +1173,7 @@ div#carousel~span:hover {
    }
 
    .home2-social {
-      left: 119px;
+      left: 105px;
       bottom: 24px;
    }
 
