@@ -37,7 +37,7 @@ function submitForm(e) {
     alertBox.style.display = "none";
   }, 3000);
 
-  document.getElementById("form").reset();
+  document.getElementById("hydroxpedition").reset();
 }
 
 function saveMessages(name, email, number, massage, location, date1, guests) {
