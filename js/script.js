@@ -54,41 +54,34 @@ popupCloseButtons1.forEach(button => {
     });
 });
 
+// Función para obtener el número de visitantes desde el almacenamiento local
+function getVisitorCount() {
+    let count = localStorage.getItem('visitorCount');
+    return count ? parseInt(count) : 0;
+}
 
-//  const nodemailer = require('nodemailer');
+// Función para incrementar el número de visitantes
+function incrementVisitorCount() {
+    let count = getVisitorCount();
+    count++;
+    localStorage.setItem('visitorCount', count);
+}
 
-// // Create a transporter object using SMTP transport
-// const transporter = nodemailer.createTransport({
-//   service: 'Gmail', // e.g., 'Gmail'
-//   auth: {
-//     user: 'hydroxpeditions@gmail.com',
-//     pass: 'Hydro101224',
-//   },
-// });
+// Función para mostrar el número de visitantes en la consola
+function showVisitorCount() {
+    const visitorCount = getVisitorCount();
+    console.log(`Número de visitantes: ${visitorCount}`);
+}
 
-// // Function to send email notifications
-// function sendNotification() {
-//   const mailOptions = {
-//     from: 'hydroxpeditions@gmail.com',
-//     to: 'recipient@email.com', // recipient's email address
-//     subject: 'Website Visit Notification',
-//     text: 'Someone has visited your website!',
-//   };
+// Incrementar el contador de visitantes cada vez que alguien carga la página
+incrementVisitorCount();
 
-//   transporter.sendMail(mailOptions, (error, info) => {
-//     if (error) {
-//       console.log('Error sending email: ' + error);
-//     } else {
-//       console.log('Email sent: ' + info.response);
-//     }
-//   });
-// }
+// Mostrar el número de visitantes en la consola (puedes quitar esta línea para mantenerlo privado)
+showVisitorCount();
 
-// Call the sendNotification function when someone visits your website
-sendNotification();
 
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-4FRH5ECH54');
+
+
+
+
