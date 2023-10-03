@@ -55,4 +55,40 @@ popupCloseButtons1.forEach(button => {
 });
 
 
+//  const nodemailer = require('nodemailer');
 
+// // Create a transporter object using SMTP transport
+// const transporter = nodemailer.createTransport({
+//   service: 'Gmail', // e.g., 'Gmail'
+//   auth: {
+//     user: 'hydroxpeditions@gmail.com',
+//     pass: 'Hydro101224',
+//   },
+// });
+
+// // Function to send email notifications
+// function sendNotification() {
+//   const mailOptions = {
+//     from: 'hydroxpeditions@gmail.com',
+//     to: 'recipient@email.com', // recipient's email address
+//     subject: 'Website Visit Notification',
+//     text: 'Someone has visited your website!',
+//   };
+
+//   transporter.sendMail(mailOptions, (error, info) => {
+//     if (error) {
+//       console.log('Error sending email: ' + error);
+//     } else {
+//       console.log('Email sent: ' + info.response);
+//     }
+//   });
+// }
+
+// Call the sendNotification function when someone visits your website
+sendNotification();
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4FRH5ECH54');
