@@ -866,14 +866,9 @@ div#carousel~span:hover {
    display: flex;
    align-items: center;
    justify-content: center;
-   /* padding: 2rem;
-   min-height: 77vh; */
-   border-radius: .5rem;
 }
 
-/* .accommodation:hover {
-   background-color: var(--light-white);
-} */
+
 
 
 
@@ -909,7 +904,6 @@ div#carousel~span:hover {
 }
 
 .accommodation .details1 .box {
-   /* width: 95rem; */
    background-color: var(--light-bg);
    padding: 3rem 2rem;
    text-align: center;
@@ -1237,10 +1231,6 @@ div#carousel~span:hover {
    }
 
 
-   /* .btn2 {
-      display: block;
-      margin-top: 1rem;
-   } */
 
    .nav-container__logo img {
       width: 200px;
