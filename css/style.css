@@ -428,28 +428,27 @@ section {
 .popup-close-button {
    position: absolute;
    background-color: var(--main-color);
-   bottom: 339px;
-   right: 45px;
-   width: 10rem;
-   height: 5rem;
+   bottom: 1%;
+   right: 1%;
+   width: 12%;
+   height: 10%;
    padding: 0.5rem 1rem;
    border: none;
    border-radius: 2.5rem;
    cursor: pointer;
    color: var(--black);
-
 }
 
 .popup-close-button1 {
    position: absolute;
    background-color: var(--main-color);
-   bottom: 3px;
+   bottom: 1%;
    right: 0;
-   width: 10rem;
-   height: 5rem;
+   width: 20%;
+   height: 10%;
    padding: 0.5rem 1rem;
    border: none;
-   border-radius: 9rem;
+   border-radius: 50%;
    cursor: pointer;
    color: var(--black);
 }
@@ -1096,9 +1095,6 @@ div#carousel~span:hover {
    color: var(--main-color);
 }
 
-.contact .credit span {
-   color: var(--min-color);
-}
 
 .alert {
    width: 100%;
@@ -1269,8 +1265,7 @@ div#carousel~span:hover {
       width: 6rem;
       height: 3rem;
       font-size: 1.2rem;
-      bottom: 334px;
-      right: 10px;
+      bottom: 310px;
    }
 
    .heading2 {
@@ -1307,10 +1302,6 @@ div#carousel~span:hover {
       bottom: 24px;
    }
 
-   /* .home1-social {
-      width: auto;
-      left: 10%;
-   } */
 
    .btn2 {
       left: 26%;
