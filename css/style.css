@@ -138,8 +138,8 @@ section {
 }
 
 .nav-container__logo img {
-   width: 400px;
-   height: 103px;
+   width: 310px;
+   height: 110px;
 }
 
 .home {
@@ -260,10 +260,6 @@ section {
    gap: 30px;
    justify-content: space-between;
    position: relative;
-   min-height: 100vh;
-   width: 100%;
-
-
 }
 
 .row h2,
@@ -408,11 +404,16 @@ section {
    max-width: 80%;
    text-align: center;
    position: relative;
+   max-height: 400px;
+   /* Ajusta este valor según tus necesidades */
+   overflow-y: auto;
+   /* Agrega una barra de desplazamiento vertical si el contenido excede el tamaño máximo */
+
 
 }
 
 .popup-title {
-   font-size: 5.5rem;
+   font-size: 3.5rem;
    margin-bottom: 2rem;
 }
 
@@ -421,8 +422,21 @@ section {
    font-size: 2rem;
    margin-bottom: 1rem;
    text-align: justify;
+}
 
 
+.primary {
+   background-color: var(--main-color);
+   border-radius: 5px;
+   font-weight: bold;
+   color: black;
+}
+
+.secondary {
+   background-color: var(--main-color);
+   border-radius: 5px;
+   font-weight: bold;
+   color: black;
 }
 
 .popup-close-button {
@@ -441,25 +455,32 @@ section {
 
 .popup-close-button1 {
    position: absolute;
-   background-color: var(--main-color);
-   bottom: 1%;
-   right: 0;
-   width: 20%;
+   background-color: #f22;
+   bottom: -680px;
+   right: 34px;
+   width: 6%;
    height: 10%;
    padding: 0.5rem 1rem;
    border: none;
    border-radius: 50%;
    cursor: pointer;
    color: var(--black);
+   font-size: 30px;
 }
 
 .popup-text1 {
    font-size: 2rem;
    margin-bottom: 1rem;
    text-align: justify;
-
-
 }
+
+.primary1 {
+   font-weight: bold;
+   color: black;
+   background-color: var(--main-color);
+   border-radius: 5px;
+}
+
 
 .popup-image {
    width: 404px;
@@ -468,7 +489,7 @@ section {
 
 .home2-social {
    position: relative;
-   bottom: 40px;
+   bottom: 19px;
    width: 170px;
    display: flex;
    left: 45%;
@@ -1242,9 +1263,10 @@ div#carousel~span:hover {
 
    .popup-close-button1 {
       right: 5px;
-      width: 60px;
-      height: 32px;
+      width: 20px;
+      height: 20px;
       top: 8px;
+      font-size: 8px;
    }
 
    .popup-content {
