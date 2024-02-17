@@ -123,6 +123,7 @@ section {
    color: var(--white);
 }
 
+
 #menu-btn {
    font-size: 2.5rem;
    cursor: pointer;
@@ -440,33 +441,75 @@ section {
 }
 
 .popup-close-button {
-   position: absolute;
    background-color: var(--main-color);
-   bottom: 1%;
-   right: 1%;
-   width: 12%;
-   height: 10%;
-   padding: 0.5rem 1rem;
    border: none;
-   border-radius: 2.5rem;
    cursor: pointer;
-   color: var(--black);
+   outline: none;
+   font-size: 30px;
+   position: relative;
+   overflow: hidden;
+   border-radius: 10px;
+   bottom: 293px;
+   right: -48%;
+}
+
+.popup-close-button .icon {
+   display: inline-block;
+   transition: transform 0.3s ease;
+}
+
+.popup-close-button:hover .icon {
+   transform: rotate(180deg);
+}
+
+
+.popup-close-button2 {
+   background-color: var(--main-color);
+   border: none;
+   cursor: pointer;
+   outline: none;
+   font-size: 30px;
+   position: relative;
+   overflow: hidden;
+   border-radius: 10px;
+   bottom: 391px;
+   right: -48%;
+}
+
+.popup-close-button2 .icon {
+   display: inline-block;
+   transition: transform 0.3s ease;
+}
+
+.popup-close-button2:hover .icon {
+   transform: rotate(180deg);
 }
 
 .popup-close-button1 {
-   position: absolute;
-   background-color: #f22;
-   bottom: -680px;
-   right: 34px;
-   width: 6%;
-   height: 10%;
-   padding: 0.5rem 1rem;
+   background-color: var(--main-color);
    border: none;
-   border-radius: 50%;
    cursor: pointer;
-   color: var(--black);
+   outline: none;
    font-size: 30px;
+   position: relative;
+   overflow: hidden;
+   left: -35px;
+   border-radius: 10px;
+   bottom: 268px;
 }
+
+
+
+.popup-close-button1 .icon {
+   display: inline-block;
+   transition: transform 0.3s ease;
+}
+
+.popup-close-button1:hover .icon {
+   transform: rotate(180deg);
+}
+
+
 
 .popup-text1 {
    font-size: 2rem;
@@ -483,8 +526,8 @@ section {
 
 
 .popup-image {
-   width: 404px;
-   height: 301px;
+   width: 232px;
+   height: 306px;
 }
 
 .home2-social {
@@ -874,7 +917,7 @@ div#carousel~span:hover {
 /* accommodation------------------------------------------------------------ */
 
 .accommodation {
-   background: url('../images/accommodation99.jpg') no-repeat rgba(0, 0, 0, .5);
+   background: url('../images/home-back.jpg') no-repeat rgba(0, 0, 0, .5);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -1262,43 +1305,52 @@ div#carousel~span:hover {
 
 
    .popup-close-button1 {
-      right: 5px;
       width: 20px;
       height: 20px;
-      top: 8px;
-      font-size: 8px;
+      font-size: 12px;
+      bottom: 184px;
    }
 
-   .popup-content {
-      max-width: 90%;
-   }
 
-   .popup-title {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
+   .popup-close-button2 {
+      width: 20px;
+      height: 20px;
+      font-size: 15px;
+      left: 50%;
+      bottom: 372px;
    }
+}
 
-   .popup-text,
-   .popup-text1 {
-      font-size: 1.3rem;
-   }
+.popup-content {
+   max-width: 90%;
+}
 
-   .popup-close-button {
-      width: 6rem;
-      height: 3rem;
-      font-size: 1.2rem;
-      bottom: 310px;
-   }
+.popup-title {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
 
-   .heading2 {
-      font-size: 3rem;
-      position: static;
-      top: auto;
-   }
+.popup-text,
+.popup-text1 {
+   font-size: 1.3rem;
+}
 
-   .home .details1 {
-      max-width: 100%;
-   }
+.popup-close-button {
+   width: 6rem;
+   height: 3rem;
+   font-size: 1.2rem;
+   bottom: 310px;
+}
+
+.heading2 {
+   font-size: 3rem;
+   position: static;
+   top: auto;
+}
+
+.home .details1 {
+   max-width: 100%;
+}
 
 
 }

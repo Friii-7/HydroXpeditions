@@ -11,6 +11,8 @@ window.onscroll = () => {
 
 
 
+
+
 document.querySelectorAll('input[type="number"]').forEach((inputNumber) => {
   inputNumber.oninput = () => {
     if (inputNumber.value.length > inputNumber.maxLength)
@@ -31,6 +33,7 @@ AOS.init();
 const popupButtons = document.querySelectorAll('.btn2');
 const popupCloseButtons = document.querySelectorAll('.popup-close-button');
 const popupCloseButtons1 = document.querySelectorAll('.popup-close-button1');
+const popupCloseButtons2 = document.querySelectorAll('.popup-close-button2');
 const popups = document.querySelectorAll('.popup');
 
 popupButtons.forEach(button => {
@@ -48,6 +51,13 @@ popupCloseButtons.forEach(button => {
     });
 });
 popupCloseButtons1.forEach(button => {
+    button.addEventListener('click', () => {
+        const popup = button.closest('.popup');
+        popup.style.display = 'none';
+    });
+});
+
+popupCloseButtons2.forEach(button => {
     button.addEventListener('click', () => {
         const popup = button.closest('.popup');
         popup.style.display = 'none';
@@ -78,8 +88,6 @@ incrementVisitorCount();
 
 // Mostrar el número de visitantes en la consola (puedes quitar esta línea para mantenerlo privado)
 showVisitorCount();
-
-
 
 
 
