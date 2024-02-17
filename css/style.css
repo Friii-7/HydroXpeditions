@@ -308,7 +308,7 @@ section {
 .btn2 {
    display: block;
    position: relative;
-   left: 34%;
+   left: 35%;
    bottom: 4px;
    border-radius: 0.5rem;
    padding: 1.2rem 3rem;
@@ -1319,41 +1319,42 @@ div#carousel~span:hover {
       left: 50%;
       bottom: 372px;
    }
+
+   .popup-content {
+      max-width: 90%;
+   }
+
+   .popup-title {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+   }
+
+   .popup-text,
+   .popup-text1 {
+      font-size: 1.3rem;
+   }
+
+   .popup-close-button {
+      width: 6rem;
+      height: 3rem;
+      font-size: 1.2rem;
+      bottom: 310px;
+   }
+
+   .heading2 {
+      font-size: 3rem;
+      position: static;
+      top: auto;
+   }
+
+   .home .details1 {
+      max-width: 100%;
+   }
 }
 
-.popup-content {
-   max-width: 90%;
-}
-
-.popup-title {
-   font-size: 2.5rem;
-   margin-bottom: 1rem;
-}
-
-.popup-text,
-.popup-text1 {
-   font-size: 1.3rem;
-}
-
-.popup-close-button {
-   width: 6rem;
-   height: 3rem;
-   font-size: 1.2rem;
-   bottom: 310px;
-}
-
-.heading2 {
-   font-size: 3rem;
-   position: static;
-   top: auto;
-}
-
-.home .details1 {
-   max-width: 100%;
-}
 
 
-}
+
 
 
 
