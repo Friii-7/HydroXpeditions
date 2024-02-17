@@ -377,7 +377,6 @@ section {
    font-size: 3rem;
    color: var(--white);
    text-align: center;
-   padding-top: 50px;
 
 }
 
@@ -1304,6 +1303,8 @@ div#carousel~span:hover {
 
 
 
+
+
    .popup-close-button1 {
       width: 20px;
       height: 20px;
@@ -1335,10 +1336,10 @@ div#carousel~span:hover {
    }
 
    .popup-close-button {
-      width: 6rem;
+      width: 5rem;
       height: 3rem;
       font-size: 1.2rem;
-      bottom: 310px;
+      bottom: 201px;
    }
 
    .heading2 {
