@@ -1319,13 +1319,13 @@ div#carousel~span:hover {
       height: 20px;
       font-size: 15px;
       left: 50%;
-      bottom: 372px;
+      bottom: 309px;
    }
 
    .popup-close-button {
       width: 20px;
       height: 20px;
-      font-size: 2rem;
+      font-size: 15px;
       bottom: 175px;
       right: 35px;
    }
