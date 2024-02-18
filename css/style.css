@@ -448,9 +448,10 @@ section {
    position: relative;
    overflow: hidden;
    border-radius: 10px;
-   bottom: 293px;
-   right: -48%;
+   bottom: 284px;
+   right: 3%;
 }
+
 
 .popup-close-button .icon {
    display: inline-block;
@@ -525,8 +526,8 @@ section {
 
 
 .popup-image {
-   width: 232px;
-   height: 306px;
+   width: 570px;
+   height: 324px;
 }
 
 .home2-social {
@@ -1321,6 +1322,14 @@ div#carousel~span:hover {
       bottom: 372px;
    }
 
+   .popup-close-button {
+      width: 20px;
+      height: 20px;
+      font-size: 2rem;
+      bottom: 175px;
+      right: 35px;
+   }
+
    .popup-content {
       max-width: 90%;
    }
@@ -1335,12 +1344,7 @@ div#carousel~span:hover {
       font-size: 1.3rem;
    }
 
-   .popup-close-button {
-      width: 5rem;
-      height: 3rem;
-      font-size: 1.2rem;
-      bottom: 201px;
-   }
+
 
    .heading2 {
       font-size: 3rem;
