@@ -526,7 +526,7 @@ section {
 
 
 .popup-image {
-   width: 570px;
+   width: 315px;
    height: 324px;
 }
 
@@ -1310,7 +1310,7 @@ div#carousel~span:hover {
       width: 20px;
       height: 20px;
       font-size: 12px;
-      bottom: 184px;
+      bottom: 161px;
    }
 
 
@@ -1396,8 +1396,8 @@ div#carousel~span:hover {
    }
 
    .popup-image {
-      width: 250px;
-      height: 200px;
+      width: 184px;
+      height: 180px;
    }
 
 
