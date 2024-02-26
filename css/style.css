@@ -526,6 +526,11 @@ section {
 
 
 .popup-image {
+   width: 490px;
+   height: 324px;
+}
+
+.popup-image-1 {
    width: 315px;
    height: 324px;
 }
@@ -1319,14 +1324,14 @@ div#carousel~span:hover {
       height: 20px;
       font-size: 15px;
       left: 50%;
-      bottom: 309px;
+      bottom: 280px;
    }
 
    .popup-close-button {
       width: 20px;
       height: 20px;
       font-size: 15px;
-      bottom: 175px;
+      bottom: 173px;
       right: 35px;
    }
 
@@ -1395,9 +1400,14 @@ div#carousel~span:hover {
       font-size: 15px;
    }
 
-   .popup-image {
+   .popup-image-1 {
       width: 184px;
       height: 180px;
+   }
+
+   .popup-image {
+      width: 330px;
+      height: 200px;
    }
 
 
