@@ -34,6 +34,7 @@ const popupButtons = document.querySelectorAll('.btn2');
 const popupCloseButtons = document.querySelectorAll('.popup-close-button');
 const popupCloseButtons1 = document.querySelectorAll('.popup-close-button1');
 const popupCloseButtons2 = document.querySelectorAll('.popup-close-button2');
+const popupCloseButtons7 = document.querySelectorAll('.popup-close-button7');
 const popups = document.querySelectorAll('.popup');
 
 popupButtons.forEach(button => {
@@ -58,6 +59,12 @@ popupCloseButtons1.forEach(button => {
 });
 
 popupCloseButtons2.forEach(button => {
+    button.addEventListener('click', () => {
+        const popup = button.closest('.popup');
+        popup.style.display = 'none';
+    });
+});
+popupCloseButtons7.forEach(button => {
     button.addEventListener('click', () => {
         const popup = button.closest('.popup');
         popup.style.display = 'none';
