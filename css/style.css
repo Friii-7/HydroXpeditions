@@ -1316,6 +1316,7 @@ div#carousel~span:hover {
       height: 20px;
       font-size: 12px;
       bottom: 161px;
+      left: 45%;
    }
 
 
@@ -1324,15 +1325,15 @@ div#carousel~span:hover {
       height: 20px;
       font-size: 15px;
       left: 50%;
-      bottom: 280px;
+      bottom: 178px;
    }
 
    .popup-close-button {
       width: 20px;
       height: 20px;
       font-size: 15px;
-      bottom: 173px;
-      right: 35px;
+      bottom: 185px;
+      left: 149px;
    }
 
    .popup-content {
