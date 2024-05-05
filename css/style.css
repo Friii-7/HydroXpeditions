@@ -472,8 +472,8 @@ section {
    position: relative;
    overflow: hidden;
    border-radius: 10px;
-   bottom: 391px;
-   right: -48%;
+   bottom: 291px;
+   left: -32px;
 }
 
 .popup-close-button2 .icon {
@@ -1242,22 +1242,24 @@ div#carousel~span:hover {
       position: relative;
    }
 
+   /* CSS */
    .header .flex .navbar {
-      position: absolute;
+      position: fixed;
       top: 100%;
       left: 2rem;
       right: 2rem;
       background-color: var(--light-black);
       backdrop-filter: blur(.4rem);
       border-radius: .5rem;
-      transform: scale(0);
-      transform-origin: top right;
+      transform: translateY(-100%);
       padding: 1.5rem .5rem;
+      display: flex;
+      gap: 20px;
+      transition: .2s linear;
    }
 
    .header .flex .navbar.active {
-      transform: scale(1);
-      transition: .2s linear;
+      transform: translateY(0);
    }
 
    .header .flex .navbar a {
